@@ -20,7 +20,10 @@ function App() {
       setPreLoader(false);
     }, 3000)
   }, [])
-  document.title=(`wuaocoin(${window.innerWidth},${window.innerHeight})`)
+  function reportWindowSize() {
+    document.title = (`wuaocoin(${window.innerWidth},${window.innerHeight})`)
+  }
+  window.onresize = reportWindowSize;
   return (
     <div className='width'>
       {PreLoader ?
