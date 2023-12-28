@@ -20,7 +20,7 @@ module.exports = {
         'complete': '100% 100%',
       },
       animation: {
-        'spin-slow': 'spin 6s linear infinite',
+        'spin-slow': 'spin 9s linear infinite',
         'wiggle-slow': 'wiggle 10s linear alternate infinite',
       },
       keyframes: {
