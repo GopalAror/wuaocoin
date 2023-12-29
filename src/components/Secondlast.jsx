@@ -1,6 +1,5 @@
 import React from 'react'
 import unicef from "../assets/image/unicef.png";
-
 const Secondlast = () => {
     return (
         <div className='bg-[url(./assets/image/last-secong-bg.png)] bg-complete bg-no-repeat h-full'>
@@ -11,5 +10,4 @@ const Secondlast = () => {
         </div>
     )
 }
-
-export default Secondlast
+export default Secondlast 
