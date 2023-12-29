@@ -8,7 +8,7 @@ const Header = () => {
             <header className='relative'>
                     <img className='absolute right-[55%] top-[15%] z-[1]' src={first} alt="first" />
                     <img className=' absolute bottom-[-9%] left-[7%] z-[1]' src={second} alt="second" />
-                <div className="max-w-[1140px] mx-auto px-3 lg:h-[60vh]">
+                <div className="max-w-[1140px] mx-auto px-3 lg:h-[85vh] min-[1281px]:h-[60vh] ">
                     <div className="row justify-end items-end h-full">
                         <div className=" lg:w-6/12 w-full px-3 pt-[50px] lg:pt-0">
                             <p className=' font-Montserrat font-semibold text-[16px] md:text-[20px] text-white z-[3] relative'>Welcome to</p>
