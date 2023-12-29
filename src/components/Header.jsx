@@ -8,11 +8,11 @@ const Header = () => {
             <header className='relative'>
                     <img className='absolute right-[55%] top-[15%] z-[1]' src={first} alt="first" />
                     <img className=' absolute bottom-[-9%] left-[7%] z-[1]' src={second} alt="second" />
-                <div className="max-w-[1140px] mx-auto px-3 lg:h-[90vh]">
+                <div className="max-w-[1140px] mx-auto px-3 lg:h-[60vh]">
                     <div className="row justify-end items-end h-full">
                         <div className=" lg:w-6/12 w-full px-3 pt-[50px] lg:pt-0">
                             <p className=' font-Montserrat font-semibold text-[16px] md:text-[20px] text-white z-[3] relative'>Welcome to</p>
-                            <h1 className='font-black font-Montserrat text-[30px] sm:text-[45px] md:text-[65px] leading-[40px] lg:leading-[73px] text-white max-w-[513px] z-[3] relative'>The Future of E-Commerce</h1>
+                            <h1 className='font-black font-Montserrat text-[30px] sm:text-[45px] md:text-[65px] leading-[40px] sm:leading-[60px] lg:leading-[73px] text-white max-w-[513px] z-[3] relative'>The Future of E-Commerce</h1>
                             <p className='text-white font-Montserrat font-medium max-w-[384px] text-[14px] md:text-[18px] z-[3] relative'>A multi-purpose token to improve digital sales and purchases</p>
                             <div className="flex gap-[15px] mt-[40px]">
                                 <div className="bg-white rounded-[40px] border border-white hover:bg-transparent duration-500">

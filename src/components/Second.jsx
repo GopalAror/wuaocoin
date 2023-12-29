@@ -20,7 +20,7 @@ const Second = () => {
                     </div>
                     <div className="w-full md:w-6/12 px-3 flex justify-center flex-col">
                         <h2 className='text-[25px] sm:text-[30px] md:text-[50px] font-Montserrat font-bold text-[#32352C] text-center md:text-start'>Our Project</h2>
-                        <p className='md:max-w-[447px] font-Montserrat text-[14px] md:text-[18px] font-normal text-black opacity-70'>Wuaocoin is the first project in the TechFi category that allows users multiple options to have utility and usability in the ecosystem, its time to change the way of seeing the purchases and sales of products and services within an multilateral electronic commerce platform using crypto technology.</p>
+                        <p className='md:max-w-[447px] font-Montserrat text-[14px] md:text-[18px] font-normal text-black opacity-70 max-md:text-center'>Wuaocoin is the first project in the TechFi category that allows users multiple options to have utility and usability in the ecosystem, its time to change the way of seeing the purchases and sales of products and services within an multilateral electronic commerce platform using crypto technology.</p>
                     </div>
                 </div>
             </div>
