@@ -25,7 +25,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-1/2 px-3 flex flex-col md:pt-0 pt-[40px] ">
-                            <div className="flex flex-row flex-wrap -mx-3">
+                            <div className="flex flex-row flex-wrap -mx-3 pb-[70px]">
                                 <div className="sm:w-1/3 px-3 flex md:justify-end">
                                     <ul>
                                         <li className='font-montserrat text-lg font-semibold leading-[27px] mb-[14px]'>Documents</li>
@@ -34,7 +34,7 @@ const Footer = () => {
                                         <li><a href="#" className='after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:bg-orange-400 after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full font-montserrat text-base text-[#32352C] leading-[34.4px] opacity-80 '>Business</a></li>
                                     </ul>
                                 </div>
-                                <div className="sm:w-1/3 px-3 flex md:justify-end">
+                                <div className="sm:w-1/3 px-3 flex md:justify-end pb-[40px]">
                                     <ul>
                                         <li className='font-montserrat text-lg font-semibold leading-[27px] mb-[14px]'>Quick Links</li>
                                         <li><a href="#" className='after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:bg-orange-400 after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full font-montserrat text-base text-[#32352C] leading-[34.4px] opacity-80 '>Home</a></li>
