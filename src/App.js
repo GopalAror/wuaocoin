@@ -11,7 +11,6 @@ import Seventh from './components/Seventh';
 import Sixth from './components/Sixth';
 import Third from './components/Third';
 import Loader from './components/Loader';
-
 function App() {
   const [PreLoader, setPreLoader] = useState(false)
   useEffect(() => {

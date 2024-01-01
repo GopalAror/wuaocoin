@@ -7,6 +7,8 @@ import telegram from "../assets/image/foot-app4.svg";
 import ellipis1 from "../assets/image/foot-ellipis1.png";
 import ellipis2 from "../assets/image/foot-ellipis-2.png";
 const Footer = () => {
+    const y = new Date ()
+    const myyear = y.getFullYear();
     return (
         <div className='relative'>
             <img className='absolute top-[-10%] sm:top-[-35%] left-0 max-sm:w-[40%]' src={ellipis1} alt="ellipis1" />
@@ -59,11 +61,11 @@ const Footer = () => {
                 </div>
                 <div className="border-t border-t-solid border-t-[#9F9F9F]"></div>
                 <div className='container max-w-[1140px] mx-auto px-3 py-[25px]'>
-                    <p className='text-center font-montserrat text-base leading-[24px] text-[#32352C] opacity-60 '>Â© Copyright 2022 - Wuaocoin</p>
+                    <p className='text-center font-montserrat text-base leading-[24px] text-[#32352C] opacity-60 '>Â© Copyright {myyear} - Wuaocoin</p>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Footer
+export default Footer 
